@@ -6,7 +6,7 @@ on:
 
 jobs: 
     ascii_job:
-        runs-on: ubunutu latest
+        runs-on: ubunutu-latest
         steps:
             - name: Checkot Repo
               uses: actions/checkout@v4
